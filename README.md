@@ -12,4 +12,4 @@ If you are interested in using IBS, please find user-friendly implementations an
 
 ### License
 
-The IBS-related code in this repository (but not necessarily other toolboxes) is released under the terms of the [MIT License](https://github.com/basvanopheusden/ibs-dev/blob/master/LICENSE).
+The IBS-related code in this repository (but not necessarily other toolboxes) is released under the terms of the [MIT License](https://github.com/basvanopheusden/ibs-development/blob/master/LICENSE).
