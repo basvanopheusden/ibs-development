@@ -6,7 +6,7 @@ If you are interested in using IBS, please find user-friendly implementations an
 
 ## Reference
 
-1. van Opheusden\*, B., Acerbi\*, L. & Ma, W.J. (2020). Unbiased and efficient log-likelihood estimation with inverse binomial sampling. *arXiv preprint*. (\* equal contribution) ([preprint on arXiv]())
+1. van Opheusden\*, B., Acerbi\*, L. & Ma, W.J. (2020). Unbiased and efficient log-likelihood estimation with inverse binomial sampling. *arXiv preprint*. (\* equal contribution) ([preprint on arXiv](https://arxiv.org/abs/2001.03985))
 
 ### License
 
