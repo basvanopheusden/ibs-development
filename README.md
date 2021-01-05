@@ -6,10 +6,26 @@ If you are interested in using IBS, please find user-friendly and fast implement
 
 ## Code
 
+To visualize the results and reproduce the figures in the paper:
+
 - `ibs_plots.ipynb` is a Jupyter notebook that reproduces almost all figures in the paper (excluding the task design figures);
-- `ibs_task_figures.ipynb` is a Jupyter notebook that reproduces the figures in the paper for the orientation discrimination and change localization tasks;
+- `ibs_task_figures.ipynb` is a Jupyter notebook that reproduces the figures in the paper for the orientation discrimination and change localization tasks.
+
+All the analyses were run in Matlab (see code in `./matlab` folder). In particular, to run the analyses call:
+```
+> recover_theta(model,method,proc_id,Ns);
+```
+where:
+
+- `model` is the model used for the analyses (`'psycho'` for psychometric function, `'vstm'` for change localization, `'fourinarow'` for the four-in-a-row game);
+- `method` is the method used to estimate the log-likelihood (`'exact'` for analytical or numerically exact likelihood, `'fixed'` for fixed-sampling, `'ibs'` for IBS);
+- `proc_id` is the task id, and determines which dataset is analyzed (`proc_id` is an integer that takes values in 1-120 for `psycho` and `fourinarow` models, and 1-80 for `vstm`);
+- `Ns` is the number of samples for `fixed` method, or the number of repeats for `ibs`.
+
+To rerun the analyses:
+
 - `batch_ibs.sh` is a batch script to run the analyses on a computer cluster (using [Slurm](https://slurm.schedmd.com/sbatch.html));
-- All the analyses were run in Matlab (see code in `./matlab` folder).
+
 
 ## Reference
 
